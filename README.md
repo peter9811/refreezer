@@ -68,7 +68,7 @@ The entire codebase has been updated/rewritten to be compatible with the latest 
 
 ## Compile from source
 
-Install the latest flutter SDK: <https://flutter.dev/docs/get-started/install>  
+Install the latest flutter SDK: <https://flutter.dev/docs/get-started/install>
 (Optional) Generate keys for release build: <https://flutter.dev/docs/deployment/android>
 
 Download source:

@@ -403,7 +403,6 @@ class Settings {
             primaryColor: primaryColor,
             sliderTheme: _sliderTheme,
             scaffoldBackgroundColor: deezerBg,
-            dialogBackgroundColor: deezerBottom,
             bottomSheetTheme:
                 const BottomSheetThemeData(backgroundColor: deezerBottom),
             cardColor: deezerBg,
@@ -459,7 +458,7 @@ class Settings {
                 return null;
               }),
             ),
-            bottomAppBarTheme: const BottomAppBarTheme(color: deezerBottom)),
+            bottomAppBarTheme: const BottomAppBarTheme(color: deezerBottom), dialogTheme: DialogThemeData(backgroundColor: deezerBottom)),
         Themes.Black: ThemeData(
             useMaterial3: false,
             brightness: Brightness.dark,
@@ -467,7 +466,6 @@ class Settings {
             fontFamily: _fontFamily,
             primaryColor: primaryColor,
             scaffoldBackgroundColor: Colors.black,
-            dialogBackgroundColor: Colors.black,
             sliderTheme: _sliderTheme,
             bottomSheetTheme: const BottomSheetThemeData(
               backgroundColor: Colors.black,
@@ -524,7 +522,7 @@ class Settings {
                 return null;
               }),
             ),
-            bottomAppBarTheme: const BottomAppBarTheme(color: Colors.black))
+            bottomAppBarTheme: const BottomAppBarTheme(color: Colors.black), dialogTheme: DialogThemeData(backgroundColor: Colors.black))
       };
 
   Future<String> getPath() async =>
