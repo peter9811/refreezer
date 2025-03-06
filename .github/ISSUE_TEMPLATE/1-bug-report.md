@@ -3,20 +3,19 @@ name: "🐞 Bug Report"
 about: "Report an issue to help the project improve."
 title: "[Bug] "
 labels: "Type: Bug"
-assignees: ''
-
+assignees: ""
 ---
 
 # **🐞 Bug Report**
 
 ## **Describe the bug**
+
 <!-- A clear and concise description of what the bug is. -->
 
-*
-
----
+- ***
 
 ### **Is this a regression?**
+
 <!-- Did this behaviour used to work in the previous version? -->
 <!-- Yes, the last version in which this bug was not present was: ... -->
 
@@ -41,18 +40,19 @@ assignees: ''
 ---
 
 ### **Expected behaviour**
+
 <!-- A clear and concise description of what you expected to happen. -->
 
-*
-
----
+- ***
 
 ### **Screenshots**
+
 <!-- If applicable, add screenshots or videos to help explain your problem. -->
 
 ---
 
 ### **Additional context**
+
 <!-- Add any other context or additional information about the problem here.-->
 
-*
+-
